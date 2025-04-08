@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academics</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-legend-collapsible"></script>
+    <script src="../js/academic.js"></script>
+    <link rel="stylesheet" href="../css/academic.css">
+</head>
+<body>
+    <div class="main">
+        <div class="nav-bar">
+            <div class="logo">
+                <a href="https://insightiitb.org/" target="_blank">
+                    <img src="../images/logo_white_text.png" alt="Insight Logo" class="logo-img">
+                </a>
+            </div>
+            <div class="nav-links">
+                <a href="../html/index.html" class="button">Home</a>
+                <a href="../html/academic.html" class="button">Academics</a>
+                <a href="../html/career.html" class="button">Career</a>
+                <a href="../html/personal.html" class="button">Personal</a>
+                <a href="../html/political.html" class="button">Political</a>
+                <!-- <a href="../html/misc.html" class="button">Miscellaneous</a> -->
+            </div>
+        </div>
+        <div class="academic-img-container">
+            <div class="headings" >
+                <h1 class="academics-h1">Academics</h1>
+            </div>
+            <img src="../images/acads with text.png" alt="Academics-image" class="academics-img">
+        </div>
+        <div class="questions-container question-section">
+            <div class="question">
+                <h1 style="display: inline-block; margin-right: 20px;">Q</h1>
+                What degree are you graduating with?
+                <div class="chart-container degree-chart-container">
+                    <canvas id="degreeChart"></canvas>
+                </div>
+            </div>
+
+            <div class="question">
+                <h1 style="display: inline-block; margin-right: 20px;">Q</h1>
+                If you are getting a UG degree, did you pursue and complete Minors or Honors?
+                <div class="chart-container minors-chart-container">
+                    <canvas id="minorsChart"></canvas>
+                </div>
+            </div>
+
+            <div class="question">
+                <h1 style="display: inline-block; margin-right: 20px;">Q</h1>
+                What is your CPI?
+                <div class="chart-container cpi-chart-container">
+                    <canvas id="cpiChart"></canvas>
+                </div>
+            </div>
+
+            <div class="question">
+                <h1 style="display: inline-block; margin-right: 20px;">Q</h1>
+                Are you interested in pursuing core?
+                <div class="chart-container core-chart-container">
+                    <canvas id="coreChart"></canvas>
+                </div>
+            </div>
+
+            <div class="question">
+                <h1 style="display: inline-block; margin-right: 20px;">Q</h1>
+                Do you plan to pursue higher studies after graduation?
+                <div class="chart-container higher-studies-chart-container">
+                    <canvas id="higherStudiesChart"></canvas>
+                </div>
+            </div>
+            <div class="question">
+                <h1 style="display: inline-block; margin-right: 20px;">Q</h1>
+                Did you use any other platform besides material provided by professors for academic purposes?
+                <div class="chart-container platform-chart-container">
+                    <canvas id="platformChart"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
