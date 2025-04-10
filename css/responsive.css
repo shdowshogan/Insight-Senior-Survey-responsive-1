@@ -6,7 +6,6 @@
     .question-section{
         width: 90vw !important;
     }
-
     canvas {
         background-color: transparent; 
         border-radius: 10px;
@@ -15,5 +14,4 @@
         margin: 0 auto;
         /* padding: 10px; */
     }
-
 }
