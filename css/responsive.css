@@ -1,0 +1,10 @@
+@media (max-width: 900px){
+    .academics-img, .career-img, .personal-img, .political-img{
+        width: 90vw !important;
+    }
+
+    .question-section{
+        width: 90vw !important;
+    }
+
+}
