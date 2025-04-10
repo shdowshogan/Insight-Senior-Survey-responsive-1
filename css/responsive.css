@@ -1,0 +1,19 @@
+@media (max-width: 900px){
+    .academics-img, .career-img, .personal-img, .political-img{
+        width: 90vw !important;
+    }
+
+    .question-section{
+        width: 90vw !important;
+    }
+    .chart-container {
+        width: 90vw !important; 
+        /* height: 90vh !important;  */
+    }
+    canvas {
+        width: 100% !important;
+        height: 100% !important;
+        margin: 0 auto;
+        /* padding: 10px; */
+    }
+}

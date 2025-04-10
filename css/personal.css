@@ -1,0 +1,50 @@
+.question-section {
+    color: white;
+    font-size: 30px;
+    height: 100vh;
+    text-align: center;
+}
+
+.question {
+    margin-top: 30px;
+}
+
+.personal-img {
+    width: 40vw;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.personal-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+    font-family: Poppins;
+    color: white;
+    margin-top: 20vh;
+}
+
+canvas {
+    background-color: transparent;
+    border-radius: 10px;
+    width: 50vw ;
+    height: 50vh;
+    margin: 0 auto;
+}
+
+/* .hobby-chart-container {
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.exercise-chart-container,
+.living-chart-container,
+.music-chart-container,
+.free-time-chart-container {
+    width: 70vw;
+    height: 70vh;
+    margin: 0 auto;
+} */

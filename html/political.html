@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Political</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-legend-collapsible"></script>
+    <script src="../js/political.js"></script> <!-- New JavaScript file for political charts -->
+    <link rel="stylesheet" href="../css/political.css"> <!-- New CSS file for political styling -->
+    <link rel="stylesheet" href="../css/responsive.css">
+</head>
+<body>
+    <div class="main">
+        <div class="nav-bar">
+            <div class="close-button" onclick="closeMenu()">
+                ❌
+            </div>
+            <div class="logo">
+                <a href="https://insightiitb.org/" target="_blank">
+                    <img src="../images/logo_white_text.png" alt="Insight Logo" class="logo-img">
+                </a>
+            </div>
+            <div class="hamburger" onclick="toggleMenu()">
+                ☰
+            </div>
+            <div class="nav-links">
+                <a href="../html/index.html" class="button">Home</a>
+                <a href="../html/academic.html" class="button">Academics</a>
+                <a href="../html/career.html" class="button">Career</a>
+                <a href="../html/personal.html" class="button">Personal</a>
+                <a href="../html/political.html" class="button">Political</a>
+                <!-- <a href="../html/misc.html" class="button">Miscellaneous</a> -->
+            </div>
+        </div> 
+        <div class="political-img-container">
+            <div class="headings">
+                <h1 class="political-h1">Political</h1>
+            </div>
+            <img src="../images/politics-img.png" alt="Political-image" class="political-img"> 
+        </div>
+        <div class="questions-container question-section">
+            <div class="question">
+                <h1 style="display: inline-block; margin-right: 20px;">Q</h1>
+                <p>
+                    How interested are you in politics?
+                </p>
+                <div class="chart-container interest-chart-container">
+                    <canvas id="interestChart"></canvas>
+                </div>
+            </div>
+
+            <div class="question">
+                <h1 style="display: inline-block; margin-right: 20px;">Q</h1>
+                <p>
+                    Do you follow national news regularly?
+                </p>
+                <div class="chart-container news-chart-container">
+                    <canvas id="newsChart"></canvas>
+                </div>
+            </div>
+
+            <div class="question">
+                <h1 style="display: inline-block; margin-right: 20px;">Q</h1>
+                <p>
+                    Which Indian political party do you support?
+                </p>
+                <div class="chart-container party-chart-container">
+                    <canvas id="partyChart"></canvas>
+                </div>
+            </div>
+
+            <div class="question">
+                <h1 style="display: inline-block; margin-right: 20px;">Q</h1>
+                <p>
+                    What is your opinion on the current Indian government?
+                </p>
+                <div class="chart-container opinion-chart-container">
+                    <canvas id="opinionChart"></canvas>
+                </div>
+            </div>
+
+            <div class="question">
+                <h1 style="display: inline-block; margin-right: 20px;">Q</h1>
+                <p>
+                    Do you think voting is important for students?
+                </p>
+                <div class="chart-container voting-chart-container">
+                    <canvas id="votingChart"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/nav-bar.js"></script>
+</body>
+</html>
